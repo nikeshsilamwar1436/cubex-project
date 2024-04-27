@@ -1,0 +1,27 @@
+﻿.my-sticky-header-column-table {
+
+  tr th {
+    position: sticky;
+    z-index: 2;
+    background: #d7dbde;
+  }
+
+  thead tr:last-child th {
+    top: 48px;
+    z-index: 3
+  }
+
+  thead tr:first-child th {
+    top: 0;
+    z-index: 1
+  }
+
+  tr:first-child th:first-child {
+    z-index: 3
+  }
+
+  td:first-child {
+    z-index: 1
+  }
+}
+

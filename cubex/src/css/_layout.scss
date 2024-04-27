@@ -1,0 +1,54 @@
+﻿.side-drawer {
+  background-color: #d7dbde;
+}
+
+.side-image {
+  width: 175px;
+  margin: 3px 10px;
+}
+.header-button {
+  color: #1D1D1D;
+}
+
+.item-section-label {
+  font-weight: 500;
+}
+
+.item-exact-active {
+  background-color: #1D1D1D;
+  color: white
+}
+
+.profile-avatar {
+  top: 6px;
+  left: 6px;
+}
+
+.search {
+  &_input {
+    margin-top: 5px;
+    transition: width 0.36s;
+    width: 300px;
+    max-height: 50px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 1px;
+      bottom: 0;
+      content: '';
+      background-color: white;
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+
+    &-closed {
+      width: 40px;
+      &:after {
+        opacity: 0;
+      }
+    }
+  }
+}
