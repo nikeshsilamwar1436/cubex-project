@@ -18,5 +18,5 @@
     icon: 'grading',
     label: 'Orders',
     link: '/orders'
-  },
+  }
 ]
