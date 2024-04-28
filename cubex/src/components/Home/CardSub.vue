@@ -7,7 +7,9 @@
   </q-card>
 </template>
 <script lang="ts" setup>
+import {api} from 'boot/axios'
 defineProps({
   title: String,
 })
+console.log(api)
 </script>
