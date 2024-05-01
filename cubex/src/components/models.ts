@@ -24,3 +24,8 @@ export interface PaginationSearch {
   search: string[] | null
   value: string | null
 }
+
+export interface itemData {
+  name: string | null
+  total: string | null
+}

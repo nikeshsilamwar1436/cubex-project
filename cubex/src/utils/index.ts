@@ -22,5 +22,5 @@ export function toSlug(value: string) {
 }
 
 export function getDatetimeStamp() {
-  return date.formatDate(new Date(), 'YYYY-MM-DD-HH:mm:ss');
+  return date.formatDate(new Date(), 'YYYY-MM-DD');
 }
